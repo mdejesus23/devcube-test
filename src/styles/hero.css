@@ -1,0 +1,90 @@
+.hero {
+  height: 110vh;
+  width: 100%;
+  background: var(--gradient-color1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.hero__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  z-index: 99;
+}
+
+.hero__section-header article {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  text-align: center;
+  width: 70.6rem;
+  margin-top: 2rem;
+  font-family: var(--font3);
+  font-weight: 400;
+}
+
+.hero__section-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  background-color: rgba(207, 140, 11, 0.1);
+  color: var(--font-color1);
+  font-family: var(--font3);
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.8rem;
+  border: 1px solid var(--primary);
+  padding: 1.6rem 3.2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+/* hero bread images  */
+/* .bread {
+    width: 50rem;
+  }
+  
+  .bread img {
+    width: 100%;
+  } */
+
+.hero__section-image1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.hero__section-image2 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.hero__section-image3 {
+  position: absolute;
+  top: 0px;
+}
+
+.hero__section-image4 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.hero__section-image5 {
+  position: absolute;
+  bottom: -10px;
+  right: 0px;
+}
