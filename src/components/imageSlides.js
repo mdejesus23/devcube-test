@@ -5,7 +5,7 @@ let productElements = "";
 productData.forEach((prod) => {
   productElements += `
         <li class="card">
-            <img class="card__image" src=${prod.image} alt=${prod.alt}/>
+            <img class="card__image" src=${prod.image} alt=${prod.alt} loading="lazy"/>
             <div class="card__content">
                 <h4>${prod.name}</h4>
                 <p>${prod.description}</p>
