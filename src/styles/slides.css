@@ -11,6 +11,8 @@
   width: 100%;
   height: 670px;
   position: relative;
+
+  overflow: hidden; /* Prevent vertical scrolling */
 }
 
 .about__container-cards {

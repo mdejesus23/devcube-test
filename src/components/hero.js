@@ -16,6 +16,12 @@ const hero = `<main class="hero">
             <img src="/images/breads/Bread5.png" alt="A brad" />
           </figure>
 
+           <figure class="hero__section-orderBtn bread">
+            <img src="/images/order-btn.png" alt="order now button" />
+          </figure>
+
+
+
           <div class="hero__section-header">
              <div class="greeting">
               <span class="dash">—</span>
